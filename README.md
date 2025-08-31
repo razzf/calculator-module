@@ -23,7 +23,7 @@ The Calculator module provides a python class for performing basic arithmetic op
 To install the Calculator module, you can simply clone the repository:
 
 ```bash
-git clone https://github.com/TuringCollegeSubmissions/jwerne-DS.v3.1.2.5.git
+git clone https://github.com/razzf/calculator-module
 ```
 
 ## Usage
@@ -125,10 +125,3 @@ The Calculator module handles errors gracefully:
 - **Division by zero** raises a `ZeroDivisionError`.
 - **Invalid root operations** raise a `ValueError` when attempting to take the 0th root or the root of a negative number with an even degree.
 - **Invalid types** for memory and rounding digits raise `TypeError`.
-
-## Contact
-Joachim Werner
-
-Email: joachim_werner@gmx.de
-
-GitHub: [RazzF](https://github.com/razzf)
